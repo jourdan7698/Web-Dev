@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #151b29;
+    margin-top: 5em;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    margin: 10%;
+    background: none;
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    padding: 1em 2em;
+    font-size: 200;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+h1:hover {
+    color: #ffa260;
+    border: 2px solid;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+img {
+    width: 29.5%;
+    margin: calc(10%/6);
+}
+
+img:hover {
+    transform: rotate(45deg);
+    transition: 1s;
+}
